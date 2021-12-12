@@ -959,3 +959,43 @@
 </body>
 
 </html>
+<?php
+    $Name = filter_input(INPUT_POST, 'Name');
+    $Email = filter_input(INPUT_POST, 'Email');
+    $Phone = filter_input(INPUT_POST, 'Phone');
+    $Experience = filter_input(INPUT_POST, 'Experience');
+   
+    if(!empty($Name)) {
+        if(!empty($Email)) {
+                if(!empty($Phone)) {
+                    if(!empty($Experience)) {
+                        $host = "localhost";
+                        $dbusername = "root";
+                        $dbpassword = "";
+                        $dbname = "bookings";
+                        $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
+                        if(mysqli_connect_error()){
+                            die('Connection Error ' .mysqli_connect_error());
+                        }else{
+                            $sql = " INSERT INTO applications_table (Name, Email,  Phone, Experience) VALUES ('$Name', '$Email', '$Phone', '$Experience')" ;
+                            if($conn->query($sql)) {
+                                echo '<script>alert("APPLICATION SUBMITTED SUCCESSFULLY")</script>';
+                            } else{
+                                echo "ERROR " . $sql . "<br>". $conn->error; 
+                            }
+                            $conn->close();
+                        }
+                    }else{
+                        echo "EXPERIENCE SHOULD NOT BE EMPTY";
+                    }
+                }else{
+                    echo "PHONE NUMBER SHOULD NOT BE EMPTY";
+                }
+            
+        }else{
+            echo "EMAIL SHOULD NOT BE EMPTY";
+        }
+    }else{
+        echo "NAME SHOULD NOT BE EMPTY";
+    }
+?>

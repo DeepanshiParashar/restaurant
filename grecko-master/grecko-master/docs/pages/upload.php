@@ -959,3 +959,17 @@
 </body>
 
 </html>
+<?php 
+$file= $_FILES['file']['name'];
+    $location= "resume/".$file;
+
+    if(move_uploaded_file($_FILES['file']['tmp_name'],$location)){
+        echo '<script>alert("RESUME UPLOADED SUCCESSFULLY")</script>';
+    }else{
+        echo '<script>alert("ERROR UPLOADING RESUME")</script>';
+    }
+
+
+
+
+?>
