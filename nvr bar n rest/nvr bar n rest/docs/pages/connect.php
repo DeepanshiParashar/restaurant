@@ -1,5 +1,4 @@
-
-<!doctype html>
+!doctype html>
 <html lang="en">
 
 <head>
@@ -814,7 +813,7 @@
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="album.html">Album</a></li>
                     <li class="nav-item active"><a class="nav-link" href="reservations.html">Reservations</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Review</a></li>
                 </ul>
                 <div class="ml-auto"><a class="nav-social mr-2" href=" "><i class="fa fa-facebook" aria-hidden="true"></i></a> <a class="nav-social mr-2" href=" "><i class="fa fa-tripadvisor" aria-hidden="true"></i></a> <a class="nav-social mr-2" href=" "><i class="fa fa-instagram" aria-hidden="true"></i></a>                    <a class="nav-social" href=" "><i class="fa fa-envelope" aria-hidden="true"></i></a></div>
             </div>
@@ -824,7 +823,9 @@
         <div class="reservations-description container">
             <h1 id="title-1" class="special-title-1">RESERVATIONS</h1>
             <h2 id="title-2" class="special-title-2">Book a Table</h2>
-            <p id="description" class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et consequat augue. Morbi condimentum interdum magna sit amet pulvinar. Vestibulum in dolor egestas, vestibulum quam sit amet, feugiat neque.</p>
+            <p id="description" class="mb-0">
+                <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et consequat augue. Morbi condimentum interdum magna sit amet pulvinar. Vestibulum in dolor egestas, vestibulum quam sit amet, feugiat neque. -->
+            </p>
         </div>
         <div class="container-fluid reservations-form dark-overlay"><img sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1536179526/website-template-3/cover-reservations.jpg 320w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_517/v1536179526/website-template-3/cover-reservations.jpg 517w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_684/v1536179526/website-template-3/cover-reservations.jpg 684w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_836/v1536179526/website-template-3/cover-reservations.jpg 836w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_963/v1536179526/website-template-3/cover-reservations.jpg 963w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1094/v1536179526/website-template-3/cover-reservations.jpg 1094w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1230/v1536179526/website-template-3/cover-reservations.jpg 1230w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1356/v1536179526/website-template-3/cover-reservations.jpg 1356w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1463/v1536179526/website-template-3/cover-reservations.jpg 1463w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1571/v1536179526/website-template-3/cover-reservations.jpg 1571w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1681/v1536179526/website-template-3/cover-reservations.jpg 1681w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1785/v1536179526/website-template-3/cover-reservations.jpg 1785w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1898/v1536179526/website-template-3/cover-reservations.jpg 1898w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1992/v1536179526/website-template-3/cover-reservations.jpg 1992w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2096/v1536179526/website-template-3/cover-reservations.jpg 2096w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2197/v1536179526/website-template-3/cover-reservations.jpg 2197w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2281/v1536179526/website-template-3/cover-reservations.jpg 2281w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2371/v1536179526/website-template-3/cover-reservations.jpg 2371w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2463/v1536179526/website-template-3/cover-reservations.jpg 2463w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2553/v1536179526/website-template-3/cover-reservations.jpg 2553w, https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1536179526/website-template-3/cover-reservations.jpg 2560w"
                 src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1536179526/website-template-3/cover-reservations.jpg" alt="" class="reservations-form-bg">
@@ -840,7 +841,7 @@
                 </div>
                 <div class="form-group"><label for="inputTextarea">MESSAGE:</label> <textarea class="form-control" id="inputTextarea" rows="7" name="Message" placeholder="Additional details"></textarea></div><button type="submit" class="btn btn-light">SUBMIT</button></form>
         </div>
-        <div id="googleMapContainer" class="homepage-google-map"><iframe title="Our location on Google My Maps" class="google-map" src="https://www.google.com/maps/d/embed?mid=1YihUagJV98aTSoPRpalSyqRjTVhaFv5E&hl=en"></iframe></div>
+        <!-- <div id="googleMapContainer" class="homepage-google-map"><iframe title="Our location on Google My Maps" class="google-map" src="https://www.google.com/maps/d/embed?mid=1YihUagJV98aTSoPRpalSyqRjTVhaFv5E&hl=en"></iframe></div> -->
     </main>
     <footer class="page-footer">
         <div class="container">
@@ -887,7 +888,6 @@
 </body>
 
 </html>
-
 <?php
     $Name = filter_input(INPUT_POST, 'Name');
     $Email = filter_input(INPUT_POST, 'Email');
